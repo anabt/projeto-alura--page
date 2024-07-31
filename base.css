@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --azulescuro: #051D3B;
+    --azuldiscord: #5081FB;
+    --azulcobalto: #7BA4FC;
+    --azulclaro: #96B9FD;
+}
+
+body{
+    background-color: var(--azulescuro);
+}
+
+.formulario{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 14px;
+    border: none;
+    outline: none;
+}
+
+.formulario:hover{
+    background: #41536A;
+}
+
+.formulario:focus{
+    background: #41536A;
+}
+
+
+.alinhamento{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    display: grid;
+    grid-template-areas: 
+    "1"
+    "2"
+    "3"
+    "4";
+}
+
+header{
+    grid-area: 1;
+}
+
+.textblock{
+    grid-area: 2;
+}
+
+.seuprojeto{
+    grid-area: 3;
+}
+
+.personalizacao{
+    grid-area: 4;
+}
+
+.padding{
+    padding: 16px 1rem;
+}
+
+.transition{
+    transition: 0.2s ease-in-out;
+}

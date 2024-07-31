@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+#rgbcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: calc(1024px - 64px);
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 8px;
+    transition: 0s;
+}
+
+main{
+    padding: 1rem;
+}
+
+textarea{
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    resize: none;
+    background: #141414;
+    color: white;
+    font-family:  'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    border: 0px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.codigo-wrapper, pre {
+    height: 337px;
+    width: 100%;
+    background: #141414;
+    border-radius: 0px 0px 8px 8px;
+}
+
+code.preview{
+    padding: 1rem;
+    color: white;
+}
+
+.preview {
+    display: block;
+    padding: 0px 2rem;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 100%;
+    white-space: pre-wrap;
+    max-height: 390px;
+    overflow-y: auto;
+    font-size: 16px;
+
+
+    scrollbar-color: #bebcbc #141414;
+    scrollbar-width: thin;
+    background: #141414;
+}
+
+.preview::-webkit-scrollbar {
+width: 1rem;
+}
+
+.preview::-webkit-scrollbar-track {
+background-color: #bebcbc;
+}
+.preview::-webkit-scrollbar-thumb {
+background-color: #141414;
+}
+
+.preview:focus{
+    border: 0px !important;
+    outline: 0px !important;
+}
+
+#mac
+{
+    background: #141414;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#macbutton{
+    margin: 16px;
+    width: 52px;
+    height: 12px;
+}
+
+#export{
+    width: 40px;
+    height: 32px;
+    margin-top: 8px;
+    margin-right: 10px;
+    height: 30px;
+    align-self: flex-end;
+}
+
+#screenshot{
+    cursor: pointer;
+}
+
+#selectexport{
+    width: 66px;
+    height: 24px;
+    margin-right: 16px;
+    padding: 0px;
+    border-radius: 4px;
+    background: #141414;
+    border: 2px solid white;
+
+    color: white;
+    margin-top: 12px;    
+}
+
+#linguagem option{
+    background: #41536A;
+}
+
+#divexport{
+    display: flex;
+    align-items: center;
+}
+
+.botaonaoativo:hover{
+    background: #5081FB3D!important;
+    cursor: pointer; 
+}
+
+.botaoativo:hover{
+    background: #7BA4FC!important;
+    cursor: pointer; 
+}
+
+#buttonhighlight:active {
+    border: 4px solid rgba(80, 129, 251, 0.24);
+}
+
+#buttonhighlight {
+    background: #5080fb2d;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    height: 3.5rem;
+    width: 100%;
+    max-width: 1024px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    border: none;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}

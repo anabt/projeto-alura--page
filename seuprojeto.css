@@ -1,0 +1,40 @@
+#seuprojeto{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FFFFFF;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FFFFFF;
+  }
+
+
+#seuprojeto input:nth-child(2){
+    height: 3.5rem;
+}
+
+#seuprojeto input:nth-child(3){
+    height: 5rem;
+    line-height: 14px;
+}
+
+label{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
